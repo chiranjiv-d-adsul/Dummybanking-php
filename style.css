@@ -1,0 +1,261 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+
+.header {
+    background-color: rgb(231, 223, 210);
+    padding: 10px;
+    box-shadow:2px 0px 6px 0px;
+}
+.header a {
+    font-size: 25px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(31, 31, 123);     
+}
+
+.header .navbar{
+    float: right;
+    margin-right: 20px;
+    padding-right: 20px;
+}
+.header .navbar a{
+    margin: 6px;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    text-align: center;
+    
+}
+
+.header .navbar a:hover{
+ 
+    color: rgb(169, 58, 58);
+}
+.fasfa-bars{
+    display: none;
+}
+.icons{
+    height:30px;
+     width:30px;
+    
+}
+
+a{
+    text-decoration: none;
+    color: gray;
+    text-align: center;
+    text-transform: capitalize;
+    margin: 2px;
+}
+
+h1{
+    text-align: center;
+    font-size: 20px;
+    padding: auto;   
+}
+ h4,p{
+    text-align: center;
+    font-size: 16px;
+    margin: 5px;
+}
+h2{
+    margin: 4px;
+    padding: 4px;
+    color: rgb(25, 24, 26);
+    box-shadow: 0px 2px 1px 0px;
+}  
+
+#selected{
+    text-align: center;
+    font-size: 30px;
+    padding-bottom: 10px;
+}
+
+.btn{
+    float: right;
+    margin-top: 10px;
+    font-size: 15px;
+    padding: 5px;
+  
+    border-radius: 10px;
+    box-shadow:2px 0px 6px yellow;
+}
+
+
+   
+
+
+
+
+.content{
+
+    margin-top: 30px;
+ 
+
+}
+.slider{
+    
+
+  display: flex;
+  margin: auto;
+   padding: 20px; 
+   
+ 
+}
+.slider h2{
+    text-align: center;
+}
+.slider p{
+text-align: left;
+margin: 10px;
+padding: 10px;
+font-size: 20px;
+color: navy;
+background-color: rgb(166, 193, 217);
+border-radius: 8px;
+}
+.slider-img{
+    box-shadow: 0px 0px 1px 0px;
+    border:  solid rgb(147, 123, 123);
+    border-radius: 8px;
+    box-shadow:2px 0px 6px 0px;
+
+    
+}
+
+.aboutus{
+    float: right;
+    margin-left: 20px;
+    border-radius: 16px;
+    margin-top: 50px;
+  
+}
+.aboutus h2{
+    background-color: navy;
+    color: white;
+    border-radius: 8px;
+}
+
+.container{
+    margin-left: 20px;
+    box-shadow:2px 0px 6px 0px;
+  
+}
+.row{
+    float: left;
+    margin: 20px;
+
+    height: 82%;
+}
+
+.row .col-30{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+color:black;
+padding: 2px;
+padding-top: 3px;
+
+text-align: center;
+}
+
+.row .col-70{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    color: rgb(15, 15, 16);
+}
+
+.row .col-70 input{
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 1px 0px 1px 0px ;
+    margin-top: 5px;
+    padding-top: 5px;
+    font-size: 15px;
+}
+.container{
+    background-color: rgba(146, 144, 142, 0.922);
+    box-shadow:2px 0px 6px 0px;
+}
+.field h2{
+   color:rgb(17, 16, 16);
+}
+#formbtn{
+    padding: 10px;
+    font-size: 15px;
+    margin-top: 52%;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 1px 0px 1px 1px ;
+
+}
+#formbtn:hover{
+    background-color: rgba(92, 91, 90, 0.922);
+    color: white;
+
+}
+#queries{
+    width: 410px;
+    height: 100px;
+    border-radius: 8px;
+    box-shadow: 1px 0px 1px 1px ;
+    text-align: center;
+    margin-top: 5px;
+    padding-top: 5px;
+    font-size: 15px;
+}
+footer{
+    background-color: rgb(190, 130, 130);
+    box-shadow:2px 0px 6px 0px;
+   
+}
+
+footer #ul1 li ,footer #ul2 li ,footer #ul3 li{
+    margin: 10px;
+    margin-left: 40px;
+    padding: 5px;
+    list-style: none;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    
+ 
+}
+footer #ul1 li a ,footer #ul2 li a, footer #ul3 li a{
+    color: black;
+    font-size: 20px;
+}
+footer #ul1 li a:hover ,footer #ul2 li a:hover, footer #ul3 li a:hover{
+    color: white;
+}
+footer #ul1{
+margin-top: 20px;
+margin-left: 50px;
+font-family: sans-serif;
+
+
+
+}
+footer #ul2{
+    
+    float: left;
+    margin-right: 260px;
+    margin-left: 200px;
+
+}
+footer #ul3{
+    margin-right: 150px;
+}
+    
+.footer{
+    display: flex;
+    margin-top: 10%;
+    
+}

@@ -1,0 +1,156 @@
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+
+/* our customer */
+
+.info{
+  margin: 20px;
+}
+.centered{
+position: absolute;
+top: 120px;
+left: 50%;
+transform: translate(-50%, -50%);
+}
+.centered h1{
+  font-size: 30px;
+  font-family: sans-serif;
+  color: brown;
+
+}
+.main{
+  margin: 20px;
+}
+.heading{
+  /* border: 1px solid green; */
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+  padding:10px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  color:blue ;
+  margin-bottom: 20px;
+}
+.heading h1{
+  background-color: wheat;
+  padding: 10px;
+  border-radius: 20px;
+}
+
+.head{
+  border: 2px solid red;
+  margin: 10px;
+  padding: 20px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.accounts{
+  margin: auto;
+  box-shadow: 4px 2px 1px gray ;
+  border-radius: 10px;
+  margin-bottom: 30px;
+  width: 100%;
+}
+.accounts th{
+  font-size: 20px;
+  padding: 10px;font-family: 'Courier New', Courier, monospace;
+  background-color: antiquewhite;
+  box-shadow: 0px 2px 1px 0px;
+  
+
+}
+.accounts td{
+  font-size: 15px;
+  padding: 10px;
+  background-color:rgb(223, 230, 208);
+  text-align: center;
+  font-family: sans-serif;
+  color: navy;
+
+}
+.accounts tr td a{
+  border-style: groove;
+  background-color: burlywood;
+  padding: 5px;
+  border-radius: 4px;
+}
+
+.body{
+  margin: 40px;
+  margin-bottom: 80px;
+}
+.body h1{
+  text-align: left;
+  font-size: 25px;
+  margin: 10px;
+  padding: 10px;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+/* transfer money */
+.transfer{
+margin: 40px;
+margin-bottom:80px ;
+background-color: blanchedalmond;
+}
+.transfer h1{
+  text-align: left;
+  padding: 10px;
+
+}
+
+.detail{
+ 
+  height: auto;
+  width: 600px;
+
+  padding: 10px;
+  box-shadow: 0px 2px 1px 0px;
+  
+}
+.detail label{
+  font-size: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+  
+  
+    
+}
+
+.detail select , .detail input{
+  font-size: 20px;
+  margin: 20px;
+  padding: 10px;
+  color: navy;
+  border-radius: 8px;
+
+}
+
+#btn {
+
+  background-color: burlywood;
+  padding: 5px;
+  border-radius: 16px;
+  color: gray;
+  margin: 20px;
+  border-radius: 16px;
+    border: solid;
+
+
+  
+}
+#btn:hover,.accounts tr td a:hover  {
+  background-color: salmon;
+
+}
+
+
+
